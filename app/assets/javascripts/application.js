@@ -14,3 +14,12 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+// ADDED SPROCKETS DIRECTIVES
+//= require jquery
+//= require jquery_ujs
+//= require bootstrap-sprockets
+//= require_tree .
+
+// ADDED A GEM IN THE GEM FILE TO USE SPROCKETS INSTEAD OF INSTALLING IT IN THE TERMINAL
+// Allows using sprockets directives which make up a Ruby library for compiling and serving web assests

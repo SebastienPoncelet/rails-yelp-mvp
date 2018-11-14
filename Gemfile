@@ -16,6 +16,18 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
+# ADDED GEMS
+# Added gems to be able to use Bootstrap. Needed to bundle install in the terminal afterwards.
+gem 'bootstrap-sass'
+gem 'font-awesome-sass', '~> 5.0.9'
+gem 'simple_form'
+gem 'autoprefixer-rails'
+gem 'jquery-rails'
+
+# ADDED GEM
+# Allows using sprockets directives which make up a Ruby library for compiling and serving web assests
+# gem 'sprockets', '~> 4.0'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

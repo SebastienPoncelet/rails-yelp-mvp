@@ -1,0 +1,21 @@
+<h1>RESTAURANT INDEX PAGE</h1>
+
+<h3>Restaurants list below:</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+    </tr>
+
+    <% @restaurants.each do |restaurant|%>
+      <tr>
+        <td><%= restaurant.id%></td>
+        <td><%= link_to "#{restaurant.name}", restaurant_path(restaurant)%></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to "Add a restaurant", new_restaurant_path, class: "btn btn-primary" %>

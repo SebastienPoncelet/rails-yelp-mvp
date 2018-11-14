@@ -1,0 +1,12 @@
+<h1>NEW RESTAURANT PAGE</h1>
+
+<h3>Add a restaurant below:</h3>
+
+<%= simple_form_for (@restaurant) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :address %>
+  <%= f.input :phone_number %>
+  <%= f.input :category %>
+  <%= f.submit "Add a restaurant", class: "btn btn-primary" %>
+<% end %>
+
